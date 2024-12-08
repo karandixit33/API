@@ -2,7 +2,7 @@ from flask import Flask , jsonify, request
 
 app = Flask(__name__)
 
-#sample data can be replaced with the datbase
+
 
 books = [
   
