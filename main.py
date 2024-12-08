@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 books = [
   
-    {"id": 1 , "title":"Book 1", "Author": "Author 1" },
-    {"id": 2 , "title":"Book 1", "Author": "Author 2" },
-    {"id": 3 , "title":"Book 1", "Author": "Author 3" }
+    {"id": 1 , "title":"Book 1", "author": "Author 1" },
+    {"id": 2 , "title":"Book 1", "author": "Author 2" },
+    {"id": 3 , "title":"Book 1", "author": "Author 3" }
     
 ]
 
