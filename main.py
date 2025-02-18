@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 books = [
   
-    {"id": 1 , "title":"Book 1", "author": "Author 1" },
-    {"id": 2 , "title":"Book 1", "author": "Author 2" },
-    {"id": 3 , "title":"Book 1", "author": "Author 3" }
+    {"id": 1 , "title":"kabir ke pohe", "Author": "KARAN JI" },
+    {"id": 2 , "title":"poor boy poor day", "Author": "VIVEK JI" },
+    {"id": 3 , "title":"gillu", "Author": "ROHAN JI" }
     
 ]
 
@@ -48,4 +48,3 @@ def update_book(book_id):
     
 if __name__=='__main__':
     app.run(debug=True)
-
